@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "9c522c9e-6e2b-45f0-8bd9-4ac14f7dbaed",
-		"name": "Min-ASK-070323",
+		"name": "MinFunctions",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "28638965"
 	},
@@ -753,7 +753,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n  \"assignmentId\": {{assignmentId}},\n  \"answers\": [\n    {\n      \"answer\": [],\n      \"textAnswer\": \"My name is Thirty\"\n    },\n    {\n        \"answer\": 1,\n        \"textAnswer\": \"\"\n    },\n    {\n        \"answer\": [0,1,2],\n        \"textAnswer\": \"\"\n    }\n  ]\n}\n",
+					"raw": "{\n  \"assignmentId\": {{assignmentId}},\n  \"answers\": [\n    {\n      \"answer\": [],\n      \"textAnswer\": \"My name is Thirty\"\n    },\n    {\n        \"answer\": 2,\n        \"textAnswer\": \"\"\n    },\n    {\n        \"answer\": [0,1,2],\n        \"textAnswer\": \"\"\n    }\n  ]\n}\n",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -977,8 +977,7 @@
 							"var lastGrade = jasonData[jasonData.length - 1];",
 							"console.log(lastGrade);",
 							"pm.test(\"check for Result\", function() {",
-							"    pm.expect(lastGrade.result).to.eql(\"FAILED\");",
-							"",
+							"    pm.expect(lastGrade.result).to.eql(\"PASSED\");",
 							"});",
 							"",
 							""

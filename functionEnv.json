@@ -1,6 +1,6 @@
 {
 	"id": "9c21bf49-c308-49e5-9044-225eb05d5dee",
-	"name": "Min-ASK-Env",
+	"name": "MinFunctionsEnv",
 	"values": [
 		{
 			"key": "baseUrl",
@@ -46,6 +46,6 @@
 		}
 	],
 	"_postman_variable_scope": "environment",
-	"_postman_exported_at": "2023-07-25T17:30:00.164Z",
+	"_postman_exported_at": "2023-07-26T02:28:06.834Z",
 	"_postman_exported_using": "Postman/10.16.3"
 }
