@@ -1,0 +1,57 @@
+{
+	"id": "f4971a22-0a8f-4bbc-a949-ed5dfefce1b5",
+	"name": "Min-E2E-ASK-Env",
+	"values": [
+		{
+			"key": "baseUrl",
+			"value": "http://ask-stage.portnov.com/api/v1",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "teacherToken",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "studentAccountId",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "studentActivationCode",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "studentToken",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "quizId",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "editedQuizId",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "assignmentId",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2023-07-24T22:04:42.010Z",
+	"_postman_exported_using": "Postman/10.16.3"
+}
